@@ -1,0 +1,761 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.big-box{
+	background: #f0f3ef;
+	width: 100%;
+	height: 15960px;
+}
+/* 京东官网顶部导航开始 */
+.nav-box {
+	width: 100%;
+	height: 30.8px;
+	background: #e3e4e5;
+	font-size: 12px;
+	border-bottom: 1px solid #ddd;
+}
+.nav-b{
+	margin: 0 auto;
+    width: 1190px;
+	height: 30px;
+    line-height: 30px;
+    
+}
+.nav-b .fl{
+	width: 257.6px;
+	height: 29.6px;
+	float: left;
+}
+.nav-b .fl .dingwei{
+	width: 57.6px;
+	height: 29.6px;
+	margin-left: 200px;
+	padding-left: 7px;
+    padding-right: 7px;
+	overflow: hidden;
+    border: 1px solid #e3e4e5;
+	color: #999;
+}
+.nav-b .fl .dingwei i{
+	color: red;
+}
+.nav-b .fl .dingwei:hover{
+	background: #FFFFFF;
+	padding-bottom: 2px;
+}
+.nav-b .fr{
+	width: 716.51px;
+	height: 29.6px;
+	float: right;
+}
+.frone{
+	width: 127.11px;
+	height: 29.6px;
+	float: left;
+	margin-right: 8px;
+}
+a{
+	text-decoration: none;
+	color: #999;
+	cursor: pointer;
+}
+.fr a:hover{
+	color: #e33333;
+}
+.frone span{
+	color: #f10215;
+	cursor: pointer;
+}
+.fr .spacer{
+	display: list-item;
+	overflow: hidden;
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+	float: left;
+	list-style: none;
+}
+.frtwo{
+	width: 48px;
+	height: 16px;
+	float: left;
+	padding-left: 7px;
+    padding-right: 7px;
+}
+.frthree{
+	width: 76.6px;
+	height: 29.6px;
+	float: left;
+	position: relative;
+	padding-left: 7px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.frthree:hover{
+	background: #FFFFFF;
+	padding-bottom: 2px;
+}
+.frthree i{
+	position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+	color: #999;
+}
+.frlast{
+	width: 60px;
+	padding-left: 7px;
+    padding-right: 7px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.weima{
+	margin: 4px auto;
+    width: 60px;
+    height: 60px;
+    background: #f6f6f6 url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/mobile_qrcode.png) 50% no-repeat;
+}
+.frlast span{
+	color: #999;
+}
+.erweima{
+	position: absolute;
+    left: 3px;
+    width: 66px;
+    height: 66px;
+    border: 1px solid #cfcfcf;
+}
+/* 京东官网顶部导航结束 */
+
+/* 京东头部开始 */
+.header-box{
+	margin: auto;
+    width: 1190px;
+	height: 140px;	
+	position: relative;
+}
+.logo{
+	position: absolute;
+	left: 0;
+    top: -31px;
+    width: 190px;
+    height: 170px;
+	box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+    background-color: #fff;
+    border-bottom: 1px solid #ededed;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.search{
+	height: 60px;
+	position: relative;
+}
+.search-bd{
+	position: absolute;
+    left: 320px;
+    top: 25px;
+    width: 550px;
+    height: 35px;
+	position: relative;
+}
+.search-bdl{
+	left: 0;
+    padding: 4px 44px 4px 4px;
+    width: 450px;
+    height: 25px;
+    border: 1px solid transparent;
+    line-height: 25px;
+    font-size: 14px;
+	background: #FFFFFF;
+}
+.search-bdl .search-input{
+	display: block;
+	width: 450px;
+	height: 100%;
+	border: none;
+	padding: 0 10px;
+	font-weight: 50;
+	
+}
+.search span i{
+	position: absolute;
+    right: 65px;
+    top: 10px;
+    width: 19px;
+    height: 15px;
+    overflow: hidden;
+}
+.search span i:hover{
+	color: red;
+	cursor: pointer;
+}
+.search-bd .sousuo{
+	
+    right: 0;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    background: #f10215;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+	position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+.buycar{
+	width: 188px;
+    height: 33px;
+    background: #FFFFFF;
+	font-size: 12px;
+    text-align: center;
+    line-height: 33px;
+	position: absolute;
+	top: 26px;
+	right: 100px;
+	color: red;
+}
+.buycar i:nth-child(2){
+	background: red;
+	color: #FFFFFF;
+	border-radius: 50%;
+}
+.header-body{
+	width: 550px;
+	height: 20px;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.header-body a{
+	color: #f10215;
+    width: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+	margin-right: 10px;
+	cursor: pointer;
+	font-size: 12px;
+}
+.header-body a:hover{
+	color: #c81623;
+}
+.header-body span{
+	margin-right: 10px;
+	white-space: nowrap;
+	color: #999;
+	cursor: pointer;
+	line-height: 20px;
+	font-size: 12px;
+}
+.header-body span:hover{
+	color: #c81623;
+}
+.header-last{
+	overflow: hidden;
+    width: 790px;
+    height: 40px;
+    margin: 10px auto 0;
+	font-size: 14px;
+	display: flex;
+}
+.header-lastone{
+	width: 260px;
+	height: 40px;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+	box-sizing: border-box;
+	line-height: 40px;
+	color: #333;
+}
+.header-lastone span:hover{
+	cursor: pointer;
+	color: #c81623;
+}
+.header-lasttwo span:hover{
+	cursor: pointer;
+	color: #c81623;
+}
+.spacer-s{
+    overflow: hidden;
+    margin: 15px 10px;
+    width: 1px;
+    height: 10px;
+    background: #ccc;
+	box-sizing: border-box;
+	
+}
+.header-lasttwo{
+	width: 160px;
+	height: 40px;
+	float: left;
+	padding: 0 10px;
+	box-sizing: border-box;
+	line-height: 40px;
+	color: #333;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* 京东头部开始 */
+/* 京东轮播图开始 */
+.wheel{
+	width: 1190px;
+	height: 480px;
+	margin: 0 auto ;
+	
+}
+.wheel-one{
+	width: 190px;
+	height: 480px;
+	background: #fefefe;
+	float: left;
+}
+.cate-menu{
+	padding: 6px 0;
+	box-sizing: border-box;
+	color: #636363;
+}
+.cate-menu-item{
+	height: 26px;
+    line-height: 26px;
+	overflow: hidden;
+    padding-left: 18px;
+	font-size: 14px;
+	color: #626262;
+}
+.cate-menu-item:hover{
+	background: #e7e7e7;
+}
+.cate-menu-item a{
+	color: #626262;
+}
+.cate-menu-item a:hover{
+	color: #f10215;
+	cursor: pointer;
+}
+.cate-menu-item span:hover{
+	color: #f10215;
+	cursor: pointer;
+}
+.wheel-two{
+	width: 590px;
+	height: 480px;
+	/* background: gray; */
+	float: left;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.wheel-two img{
+	width: 590px;
+	height: 470px;
+	margin-top: 10px;
+}
+.wheel-two img:hover{
+	cursor: pointer;
+}
+	
+.wheel-three{
+	width: 190px;
+	height: 470px;
+	/* background: gray; */
+	float: left;
+	margin-left: 10px;
+	/* overflow: hidden; */
+}
+.wheel-three-m{
+	width: 190px;
+	height: 150px;
+	position: relative;
+	margin-top: 10px;
+}
+.wheel-three-m img{
+	width: 190px;
+	height: 100%;
+	transition: all .1s linear;
+}
+.wheel-three-m img:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.wheel-four{
+	width: 190px;
+	height: 480px;
+	background: #fff;
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+.wheel-four .f1{
+	width: 190px;
+	height: 140px;
+	/* background: blue; */
+	padding-top: 62px;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.user-portrait{
+	position: absolute;
+    left: 50%;
+    top: -10px;
+    margin-left: -34px;
+    width: 65px;
+    height: 65px;
+	text-align: center;
+	line-height: 65px;
+	border: 5px solid #e3e1df;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px 6px 25px #c3c3c3;
+	box-sizing: border-box;
+}
+.user-portrait img{
+	width: 55px;
+	height: 55px;
+}
+.user-show{
+	color: #888;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+.user-tip{
+	width: 170px;
+	height: 20px;
+	margin: 0 auto;
+}
+.user-login{
+	width: 170px;
+	height: 20px;
+	margin: 0 auto;
+}
+.user-login span:hover{
+	color: #f10215;
+	cursor: pointer;
+}
+.f1-box{
+	width: 190px;
+	height: 25px;
+	/* background: yellow; */
+	margin-top: 10px;
+	text-align: center;
+}
+.f1-left{
+	display: inline-block;
+    margin: 0 5px;
+    width: 70px;
+    height: 25px;
+	background: #FFFFFF;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    color: #e43f3b;
+	border-radius: 20px;
+	box-shadow: 2px 4px 20px 1px rgba(0,0,0,0.2);
+}
+.r{
+	color: #e5d790;
+	background: #363634;
+}
+.f1-left:hover{
+	background-color: #e01222;
+    color: #fff;
+	cursor: pointer;
+}
+.f2{
+	width: 190px;
+	height: 130px;
+	position: relative;
+	/* background: blue; */
+}
+.f2-head{
+	width: 100%;
+	height: 27px;
+	padding: 5px 0 0;
+	position: relative;
+	box-sizing: border-box;
+}
+h5{
+	display: inline-block;
+    font-size: 13px;
+    margin-left: 15px;
+    color: #1e1e1e;
+}
+.f2-more{
+	position: absolute;
+    right: 12px;
+    top: 10px;
+    font-size: 12px;
+    color: #999;
+	line-height: 13px;
+}
+.f2-more:hover{
+	color: #666;
+	cursor: pointer;
+}
+.f2-body{
+	position: relative;
+    padding-top: 8px;
+    margin: 0 15px;
+    height: 96px;
+	/* background: #ADFF2F; */
+	box-sizing: border-box;
+}
+.f2-body-one{
+    /* max-width: 160px; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+	font-size: 12px;
+	line-height: 22px;
+}
+.f2-body-one a{
+	color: #666;
+}
+.f2-body-one a:hover{
+	color: #e83632;
+}
+.f2-body-one .news{
+	display: inline-block;
+    position: relative;
+    height: 16px;
+    width: 35px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 2px;
+    color: #fff;
+    background: #90b0c6;
+    margin-right: 6px;
+}
+.f2-body-one{
+	color: #e83632;
+}
+.f2-body-one .n1{
+	background: #e0b95a;
+}
+.f2-body-one .n2{
+	background: #e47f7f;
+}
+.f2-body-one .n3{
+	background: #e47f7f;
+}
+.box:after{
+	content: "";
+	display: block;
+    position: absolute;
+    top: 130px;
+    left: 15px;
+    width: 160px;
+    height: 1px;
+    background: #ebeaea;
+    /* z-index: 1; */
+}
+.f3{
+	width: 190px;
+	height: 190px;
+	overflow: hidden;
+    padding: 18px 11px 11px;
+	box-sizing: border-box;
+}
+.f3-body-one{
+	width: 42px;
+	height: 57px;
+	/* background: red; */
+	padding-top: 10px;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	color: #bea68d;
+}
+.f3-body-one .iconfont {
+	font-size: 16px;
+}
+.f3-body-one span{
+	display: block;
+    padding-top: 3px;
+    box-sizing: border-box;
+    transition: color .15s ease;
+	font-size: 12px;
+
+}
+.f3-body-one:hover{
+	color: #c81623;
+	font-weight: 600;
+	cursor: pointer;
+}
+/* 京东轮播图结束 */
+
+/* 京东秒杀开始 */
+.kill-box{
+	width: 1190px;
+	height: 275px;
+	/* background: greenyellow; */
+	margin: 30px auto;
+}
+.kill-left{
+	width: 190px;
+	height: 275px;
+	background: #e83632;
+	float: left;
+	text-align: center;
+	padding: 45px 20px 20px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+}
+.kill-left:hover{
+	cursor: pointer;
+}
+p{
+	margin: 10px 0px 0px 0px;
+}
+.desc-time{
+	font-size: 36px;
+	color: #FFFFFF;
+}
+.desc-t{
+	color: #f19999;
+	font-size: 20px;
+}
+.kill-left .icon-content-flashsale{
+	font-size: 33px;
+}
+.desc-countDown{
+	width: 135px;
+	height: 40px;
+	/* background: red; */
+	margin: 22px auto 0;
+}
+.desc-count{
+	font-size: 24px;
+	background: #2f3430;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	float: left;
+	margin-right: 5px;
+}
+
+
+.kill-mid{
+	width: 200px;
+	height: 275px;
+	background: #FFFFFF;
+	float: left;
+	padding: 0 5px;
+	box-sizing: border-box;
+	position: relative;
+	border-right: 1px solid #f1f3ef;
+}
+.kill-mid:hover{
+	cursor: pointer;
+}
+.kill-mid:hover p{
+	color: #c81623;
+}
+.kill-mid .img{
+	width: 140px;
+	height: 140px;
+	/* background: red; */
+	margin: 50px auto 5px;
+}
+.kill-mid .img img{
+	width: 100%;
+	height: 100%;
+	transition: all .2s linear;
+}
+.kill-mid .img img:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.mid-title{
+	position: absolute;
+    top: 190px;
+    left: 0;
+    width: 160px;
+    padding: 0 15px;
+    line-height: 30px;;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+	color: #666;
+	font-size: 12px;
+}
+.mid-price{
+	position: absolute;
+    left: 15px;
+    top: 230px;
+    width: 160px;
+    height: 20px;
+    padding: 1px;
+    background: #e6382f;
+    line-height: 20px;
+}
+.price-left{
+	float: left;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.price-left a{
+	
+	margin-right: 3px;
+    font-family: arial,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.price-left span{
+	text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.price-right{
+	float: left;
+    width: 80px;
+    height: 20px;
+    background: #fff;
+    text-align: center;
+    color: #b7bcb8;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.price-right a{
+	text-align: center;
+    color: #b7bcb8;
+    font-size: 12px;
+}
+.price-right s{
+	text-align: center;
+    color: #b7bcb8;
+    font-size: 12px;
+}
+
+.kill-right{
+	width: 200px;
+	height: 275px;
+	background: #FFFFFF;
+	float: right;
+	padding: 8px 10px 7px;
+	box-sizing: border-box;
+}
+.kill-right img{
+	width: 100%;
+	height: 100%;
+}
+/* 京东秒杀结束 */

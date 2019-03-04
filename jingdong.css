@@ -6,7 +6,7 @@
 .big-box{
 	background: #f0f3ef;
 	width: 100%;
-	height: 15960px;
+	height: 15600px;
 }
 /* 京东官网顶部导航开始 */
 .nav-box {
@@ -2229,4 +2229,177 @@ img{
 }
 /* 还没逛够内容结束 */
 
+/* 京东底部开始 */
+.footer-service{
+	width: 100%;
+	height: 113px;
+	padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+	box-sizing: border-box;
+}
+.inner-list{
+    height: 52px;
+}
+.footer-inner{
+	margin: 0 auto;
+    width: 1190px;
+}
+.inner-item{
+	float: left;
+    width: 297px;
+	
+}
+.inner-item-unit{
+	position: relative;
+    margin: 0 auto;
+    padding-left: 45px;
+    width: 180px;
+}
+.inner-item-duo{
+	background-repeat: no-repeat;
+    background-position: 0 -192px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png);
+	overflow: hidden;
+    position: absolute;
+    left: -16px;
+    top: 0;
+    width: 36px;
+    height: 52px;
+    text-indent: -999px;
+}
+.inner-item-txt{
+	overflow: hidden;
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    font-size: 18px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #444;
+}
+.footer-help{
+	padding: 20px 0;
+}
+.help-inner{
+	margin: 0 auto;
+    width: 1190px;
+}
+.help-list{
+	overflow: hidden;
+    height: 160px;
+}
+.help-bd{
+	float: left;
+    width: 198px;
+    line-height: 22px;
+}
+.help-bdtop{
+	margin-bottom: 5px;
+    font-size: 14px;
+}
+.help-bds li{
+	font-size: 12px;
+	color: #666;
+    text-decoration: none;
+	cursor: pointer;
+}
+.help-bds li:hover{
+	color: #c81623;
+}
+.help-cover{
+	background-repeat: no-repeat;
+    background-position: 0 0;
+    float: right;
+    width: 200px;
+    height: 150px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png);
+}
+.cover{
+	margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+.help-cover-x{
+	padding: 0 10px;
+}
+.help-cover-x p{
+	font-size: 12px;
+	color: #666;
+}
+.help-detail{
+	text-align: right;
+}
+.help-detail a{
+	color: #666;
+	line-height: 16px;
+	cursor: pointer;
+}
+.footer-our-box{
+	width: 1190px;
+	margin: 0 auto;
+	padding: 15px 0;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+}
+.our-s{
+	height: 18px;
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+}
+.our-s a{
+	color: #666;
+}
+.our-s a:hover{
+	color: #c81623;
+}
+.our-s span{
+	margin: 0 10px;
+    color: #ccc;
+}
+.our-bd{
+	padding: 10px 0;
+    line-height: 22px;
+    color: #999;
+	font-size: 12px;
+}
+.our-bd span{
+	margin: 0 10px;
+	color: #ccc;
+}
+.footer-our-box p{
+	margin: 0;
+}
+.our-bdfour i{
+	background-repeat: no-repeat;
+    background-position: -108px -155px;
+    width: 15px;
+    height: 12px;
+    margin-top: -1px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png);
+	display: inline-block;
+	vertical-align: -1px;
+    margin-right: 10px;
+}
+.our-bdfive span{
+	color: #999;
+}
+.last-box{
+	margin: 25px 0;
+}
+.last-box-bot{
+	overflow: hidden;
+    display: inline-block;
+    margin: 0 3px;
+    width: 103px;
+    height: 32px;
+    line-height: 1000px;
+	background-repeat: no-repeat;
+	background-position: -205px -111px;
+	background-image: url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.footer.png);
+}
+
+
+/* 京东底部结束 */
 

@@ -93,10 +93,15 @@ a{
 	padding-left: 7px;
 	box-sizing: border-box;
 	cursor: pointer;
+	position: relative;
 }
 .frthree:hover{
 	background: #FFFFFF;
 	padding-bottom: 2px;
+	
+}
+.frthree .dropdown-myjd .fore1 a:hover{
+	color: #f10215;
 }
 .frthree i{
 	position: absolute;
@@ -106,6 +111,30 @@ a{
     height: 12px;
     line-height: 12px;
 	color: #999;
+}
+.dropdown-myjd {
+	display: none;
+    position: absolute;
+	border: 1px solid #ccc;
+	border-top: 0 solid #fff;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+    left: -1px;
+	width: 280px;
+	top: 29px;
+	z-index: 500;
+}
+.myjdlist {
+    padding: 10px 0 10px 15px;
+    overflow: hidden;
+}
+.myjdlist .fore1{
+    float: left;
+    width: 126px;
+}
+.myjdlist .fore1 a{
+	color: #999;
+    display: block;
 }
 .frlast{
 	width: 60px;
@@ -119,7 +148,7 @@ a{
 	margin: 4px auto;
     width: 60px;
     height: 60px;
-    background: #f6f6f6 url(//misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/mobile_qrcode.png) 50% no-repeat;
+    background: #f6f6f6 url(https://misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/mobile_qrcode.png) 50% no-repeat;
 }
 .frlast span{
 	color: #999;
@@ -223,10 +252,50 @@ a{
 	right: 100px;
 	color: red;
 }
+.buycar:hover{
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
 .buycar i:nth-child(2){
 	background: red;
 	color: #FFFFFF;
 	border-radius: 50%;
+}
+.dropdown-layer {
+	display: none;
+    top: 33px;
+    right: -1px;
+    width: 308px;
+}
+.dropdown-layer {
+    /* display: none; */
+    position: absolute;
+	border: 1px solid #ccc;
+	border-top: 0 solid #fff;
+    background-color: #fff;    
+    box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+}
+.cart_pop {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    background: #fff;
+}
+.cart_empty {
+    height: 49px;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 49px;
+    overflow: hidden;
+    color: #999;
+}
+.cart_empty_img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 56px;
+    height: 49px;
+    background-image: url(https://img11.360buyimg.com/uba/jfs/t3571/299/131233948/1117/a1196554/58004d6dN2927f0f7.png);
 }
 .header-body{
 	width: 550px;
@@ -319,6 +388,20 @@ a{
 	height: 480px;
 	background: #fefefe;
 	float: left;
+	position: relative;
+}
+.cate_pop {
+	left: 191px;
+    background-color: #fff;
+    position: absolute;
+    left: 191px;
+    top: 0;
+    width: 998px;
+    min-height: 478px;
+    border: 1px solid #f7f7f7;
+    background-color: #fff;
+	box-shadow: 2px 0 5px rgba(0,0,0,.3);
+	z-index: 999;
 }
 .cate-menu{
 	padding: 6px 0;

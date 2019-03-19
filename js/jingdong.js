@@ -110,13 +110,13 @@ window.onload=function(){
         dotf[now].classList.add("chn-active")
         prev = now;
     }
-    let f = setInterval(run1,4000);
+    let f = setInterval(run1,3000);
     // 移入停止
     bannerf.onmouseenter = function(){
         clearInterval(f)
     }
     bannerf.onmouseleave = function(){
-        f = setInterval(run1,4000)
+        f = setInterval(run1,3000)
     }
     // 轮播点点击事件
     dotf.forEach(function(item,i){
@@ -144,8 +144,86 @@ window.onload=function(){
             }
         }
     })
-	//无缝轮播结束
+    //无缝轮播结束
+    
+    // 内容轮播1
+    let pagec = document.querySelectorAll(".pai .pai-left .pai-body .pai-body-li")
+    let dotc = document.querySelectorAll(".pai .two .slider .slider-dot")
+    let prec = document.querySelector(".pai .pai-left .ll") 
+    let nextc = document.querySelector(".pai .pai-left .rr") 
+    let prevc = 0;
+    let nowc = 0;
+    pagec.forEach(function(item,i){
+        if(i == 0){
+            return;
+        }
+        item.style.left = "350px";
+    })
+    // 切换
+    function run2(status = "next"){
+        if(status == "next"){
+            nowc += 1;
+            if(nowc>3){
+                nowc = 0;
+            }
+            pagec[nowc].style.left = '350px';
+            animate(pagec[nowc],{'left':0});
+            animate(pagec[prevc],{'left':-350});
+            dotc.forEach(function(item){
+                item.classList.remove("sdot-active")
+            })
+            dotc[nowc].classList.add("sdot-active")
+        }else if(status == "pre"){
+            nowc -= 1;
+            if(nowc<0){
+                nowc = 2;
+            }
+            pagec[nowc].style.left = '-350px';
+            animate(pagec[nowc],{'left':0});
+            animate(pagec[prevc],{'left':350});
+            dotc.forEach(function(item){
+                item.classList.remove("sdot-active")
+            })
+            dotc[nowc].classList.add("sdot-active")
+        }
+        prevc = nowc;
+    }
+    setInterval(run2,4000);
+    // 箭头
+    prec.onclick = function(){
+        run2("pre")
+    }
+    nextc.onclick = function(){
+        run2()
+    }
+    // 轮播点点击事件
+    dotc.forEach(function(item,i){
+        item.onmouseenter = function(){
+            if(i>nowc){
+                pagec[i].style.left = '350px';
+                animate(pagec[i],{'left':0});
+                animate(pagec[prevc],{'left':-350});
+                dotc.forEach(function(item){
+                    item.classList.remove("sdot-active")
+                })
+                dotc[i].classList.add("sdot-active")
+                prevc = i;
+                nowc = i;
+            }else{
+                pagec[i].style.left = '-350px';
+                animate(pagec[i],{'left':0});
+                animate(pagec[prevc],{'left':350});
+                dotc.forEach(function(item){
+                    item.classList.remove("sdot-active")
+                })
+                dotc[i].classList.add("sdot-active")
+                prevc = i;
+                nowc = i;
+            }
+        }
+    })
 
-
-
+    //特色推荐无缝轮播开始
+    
+    //特色推荐无缝轮播结束
 }

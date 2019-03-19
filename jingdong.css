@@ -1281,46 +1281,25 @@ p{
 .two-dots-left:hover {
 	background: #fdd9dd;
 }
-.two-dots-left:hover .inn{
-	border: 2px solid transparent;
-	background: #eb3436;
-}
-.le{
-	background: #fdd9dd;
-}
-.two-dots-in{
-	display: block;
-	position: absolute;
-	left: 3px;
-	top: 3px;
-	width: 6px;
-	height: 6px;
-	border-radius: 50%;
-	/* border: 2px solid #b9beba; */
-	border: 2px solid transparent;
-    background: #eb3436;
-}
-.inn{
-	border: 2px solid #b9beba;
-	background: #FFFFFF;
-}
 
-.pai-body{
-	width: 390px;
+.pai .pai-left .pai-body{
+	width: 350px;
 	height: 355px;
 	/* background: #008000; */
+	margin: 0 20px;
+	position: relative;
+	overflow: hidden;
 }
 .pai-body-li{
-	position: relative;
     width: 350px;
     height: 355px;
-	/* background: grey; */
-    margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;	
 }
 .slider-left{
 	position: absolute;
-    top: 50%;
-	
+    top: 50%;	
     border-radius: 0;
     width: 20px;
     height: 40px;
@@ -1343,10 +1322,35 @@ p{
 	color: hsla(0,0%,100%,.4);
 }
 .ll{
-	left: -20px;
+	left: 0;
 }
 .rr{
-	right: -20px;
+	right: 0;
+}
+.slider{
+	height: 16px;
+	position: absolute;
+	bottom: 9px;
+	left: 45%;
+}
+.slider-dot{
+	float: left;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 2px solid #b9beba;
+	margin: 3px;
+	cursor: pointer;
+}
+.slider-dot:hover{
+	background: #e33333;
+	border-color: #e33333;
+	box-shadow: 0 0 0 3px #fdd9dd;
+}
+.sdot-active{
+	background: #e33333;
+	border-color: #e33333;
+	box-shadow: 0 0 0 3px #fdd9dd;
 }
 .rrr{
 	right: 0;
@@ -1461,10 +1465,6 @@ p{
     height: 40px;
     line-height: 20px;
     overflow: hidden;
-}
-.pai-left .t1{
-	width: 51px;
-	height: 16px;
 }
 
 .coupon_inner{
@@ -2347,7 +2347,10 @@ img{
 .speci-box{
     height: 330px;
     margin-bottom: 10px;
-    overflow: hidden;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 .box-one{
 	width: 390px;
@@ -2359,10 +2362,7 @@ img{
 .speci-box .fff{
 	margin-right: 0;
 }
-.sdots{
-	width: 84px;
-	margin: 0 auto;
-}
+
 /* 特色推荐结束 */
 /* 直播开始 */
 .tv-box{
